@@ -1,5 +1,6 @@
-# Fahrenheit2Celsius
-Welcome to the Fahrenheit2Celsius project! This is a Lua software application that allows you to easily convert temperatures from Fahrenheit to Celsius. This project can be run on your local machine or on the web.
+<div align=center><img src="banner.png"/></div>
+
+------
 
 ## How to Run
 To run the application, you can either clone the repository to your local machine or run it on the web using Repl.it.
