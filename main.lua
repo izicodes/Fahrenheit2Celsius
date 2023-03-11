@@ -15,7 +15,10 @@ function convertTemperature(targetUnit, degrees)
     if correctedString == "kelvin" then
         return fahrenheitToKelvin(degrees)
     elseif correctedString == "celsius" then
-        fahrenheitToCelsius(degrees)
+        return fahrenheitToCelsius(degrees)
+    else
+        print("Invalid Input")
+    return nil
   end
 end
 
