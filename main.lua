@@ -4,6 +4,10 @@ function fahrenheitToCelsius(degrees)
     return offsetDegrees * conversionFactor
 end
 
+function fahrenheitToKelvin(degrees) 
+  
+end
+
 convertedDegrees = fahrenheitToCelsius(32)
 
 print(convertedDegrees)
