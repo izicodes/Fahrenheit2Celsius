@@ -24,7 +24,7 @@ To run the application, you can either clone the repository to your local machin
 - Click on the green "Run" button to start the application.
 - Follow the prompts to convert your temperature!
 ### Running Locally
-- Clone the repository to your local machine using git clone https://github.com/<your-username>/Fahrenheit2Celsius.git.
+- Clone the repository to your local machine using git clone `https://github.com/xiacodes/Fahrenheit2Celsius.git`.
 - Navigate to the project directory using cd Fahrenheit2Celsius.
 - Run the application using lua main.lua.
 - Follow the prompts to convert your temperature!
