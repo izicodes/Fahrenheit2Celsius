@@ -3,3 +3,7 @@ function fahrenheitToCelsius(degrees)
     local conversionFactor = 5/9
     return offsetDegrees * conversionFactor
 end
+
+convertedDegrees = fahrenheitToCelsius(32)
+
+print(convertedDegrees)
