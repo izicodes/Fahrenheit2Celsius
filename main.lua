@@ -5,7 +5,7 @@ function fahrenheitToCelsius(degrees)
 end
 
 function fahrenheitToKelvin(degrees) 
-  
+    degreesCelsius = fahrenheitToCelsius(degrees)
 end
 
 convertedDegrees = fahrenheitToCelsius(32)
