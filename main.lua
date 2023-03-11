@@ -10,5 +10,6 @@ function fahrenheitToKelvin(degrees)
 end
 
 convertedDegrees = fahrenheitToCelsius(32)
-
+print(convertedDegrees)
+convertedDegrees = fahrenheitToKelvin(40)
 print(convertedDegrees)
