@@ -11,6 +11,9 @@ end
 
 function convertTemperature(targetUnit, degrees)
     correctedString = string.lower(targetUnit)
+
+    if correctedString == "kelvin" then
+    return fahrenheitToKelvin(degrees)
 end
 
 convertedDegrees = fahrenheitToCelsius(32)
