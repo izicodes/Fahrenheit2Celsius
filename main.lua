@@ -27,7 +27,10 @@ inputDegrees = 23
 convertedDegrees = convertTemperature("celsius", inputDegrees)
 print(convertedDegrees)
 
+-- Testing the fahrenheitToCelsius function
 convertedDegrees = fahrenheitToCelsius(32)
 print(convertedDegrees)
+
+-- Testing the fahrenheitToCelsius function
 convertedDegrees = fahrenheitToKelvin(40)
 print(convertedDegrees)
