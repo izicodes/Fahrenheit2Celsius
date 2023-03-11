@@ -22,6 +22,11 @@ function convertTemperature(targetUnit, degrees)
   end
 end
 
+-- Testing the convertTemperature function
+inputDegrees = 23
+convertedDegrees = convertTemperature("celsius", inputDegrees)
+print(convertedDegrees)
+
 convertedDegrees = fahrenheitToCelsius(32)
 print(convertedDegrees)
 convertedDegrees = fahrenheitToKelvin(40)
