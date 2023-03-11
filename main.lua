@@ -9,6 +9,10 @@ function fahrenheitToKelvin(degrees)
     return degreesCelsius + 273.15
 end
 
+function convertTemperature(targetUnit, degrees)
+    correctedString = string.lower(targetUnit)
+end
+
 convertedDegrees = fahrenheitToCelsius(32)
 print(convertedDegrees)
 convertedDegrees = fahrenheitToKelvin(40)
